@@ -3,9 +3,9 @@ console.clear();
 console.log('--1 uzd---------------------');
 
 function func1 (a, b) {
-    if (a < b) {
+    if (a > b) {
         console.log('a didesnis uz b');
-    } else if (a > b) {
+    } else if (a < b) {
         console.log('b didesnis uz a');
     } 
 }
